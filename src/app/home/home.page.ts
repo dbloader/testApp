@@ -7,6 +7,19 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  articles: any[];
+
+  constructor() {
+    this.articles = [
+      {
+        title: 'title 1',
+        description: 'this is a description'
+      },
+      {
+        title: 'title 2',
+        description: 'this is a description 2'
+      }
+    ]
+  }
 
 }
